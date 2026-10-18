@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.clinic"},{"l":"com.clinic.dao"},{"l":"com.clinic.db"},{"l":"com.clinic.model"},{"l":"com.clinic.service"},{"l":"com.clinic.ui"}];updateSearchResults();

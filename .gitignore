@@ -1,0 +1,53 @@
+# =========================================================================
+# Maven Specific
+# =========================================================================
+# Ignore the entire build output directory
+target/
+
+# Ignore Maven release/backup files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# If using the Maven Wrapper, ensure the wrapper jar is NOT ignored
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================================
+# NetBeans IDE Specific
+# =========================================================================
+# User-specific private configurations (e.g., active paths, local properties)
+nbproject/private/
+
+# NetBeans execution and custom build configurations
+nbactions.xml
+nb-configuration.xml
+
+# NetBeans generated build folders (Ant legacy fallback, though Maven uses target/)
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================================================================
+# Java & OS Compiled/Log Files
+# =========================================================================
+# Compiled class files and packages
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# Logs
+*.log
+hs_err_pid*
+
+# OS specific files
+Thumbs.db
+.DS_Store
